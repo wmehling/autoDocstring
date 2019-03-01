@@ -37,11 +37,12 @@ export class MarkdownFactory extends BaseFactory {
     formatKeywordArguments(docstring: interfaces.DocstringParts) {
         this.appendText("\n# Keyword Arguments \n");
         for (let kwarg of docstring.kwargs) {
-            this.appendText(`* **${kwarg.var}`);
+            this.appendText(`* **${kwarg.var}** (*`);
             this.appendPlaceholder(`${kwarg.type}`);
-            this.appendText(` ,default = ${kwarg.default}`);
-            this.appendText("");
+            this.appendText(`, default = ${kwarg.default}`);
+            this.appendText("* ) -- ");
             this.appendPlaceholder("[description]");
+            this.appendNewLine();
         }
     }
 
