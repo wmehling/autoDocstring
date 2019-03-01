@@ -4,6 +4,7 @@
 # VSCode autoDocstring
 
 Visual Studio Code extension to quickly generate docstrings for python functions.
+Adapted to include another docstring style 'markdown', which can be used for automatic documentation generation with pydocmd.
 
 ![Auto Generate Docstrings](images/demo.gif)
 
@@ -21,6 +22,7 @@ Visual Studio Code extension to quickly generate docstrings for python functions
 * Numpy
 * Sphinx
 * PEP0257 (coming soon)
+* Markdown (added locally)
 
 ## Usage
 Cursor must be on the line directly below the definition to generate full auto-populated docstring
