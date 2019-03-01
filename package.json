@@ -68,7 +68,8 @@
                         "default",
                         "google",
                         "sphinx",
-                        "numpy"
+                        "numpy",
+                        "markdown"
                     ],
                     "description": "Which docstring format to use."
                 },
@@ -79,7 +80,7 @@
                 },
                 "autoDocstring.includeDescription": {
                     "type": "boolean",
-                    "default": false,
+                    "default": true,
                     "description": "Include description tag"
                 },
                 "autoDocstring.includeName": {

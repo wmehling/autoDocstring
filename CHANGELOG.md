@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.2.3.2] - 2019-03-01  came
+- Added markdown style support
+
 ## [0.2.3] - 2018-07-23
 - Added support for single quotes (@Modelmat)
 - Bugfixes (@chirieac, @md2perpe)
