@@ -63,7 +63,7 @@
             "properties": {
                 "autoDocstring.docstringFormat": {
                     "type": "string",
-                    "default": "default",
+                    "default": "markdown",
                     "enum": [
                         "default",
                         "google",
